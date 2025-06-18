@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5500;
 await mongoDB();
 
-app.use("/images", express.static("images"));
+app.use(express.static("public"));
 
 app.use(express.json());
 app.use(cors());
