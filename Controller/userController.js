@@ -27,8 +27,7 @@ export const register = async (req, res) => {
     res.send({
       success: true,
       message: "User Created",
-      userId: userObj._id,
-      token: token,
+      userDetails: { userId: userObj._id, token: token },
     });
   } catch (error) {
     console.log(error.message);
@@ -52,8 +51,7 @@ export const login = async (req, res) => {
     res.send({
       success: true,
       message: "User Created",
-      userId: userObj._id,
-      token: token,
+      userDetails: { userId: userObj._id, token: token },
     });
   } catch (error) {
     console.log(error);
