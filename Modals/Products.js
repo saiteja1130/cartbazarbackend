@@ -10,6 +10,7 @@ const baseProductSchema = new mongoose.Schema(
     description: String,
     mainCategory: String,
     subCategory: String,
+    image: String,
   },
   { discriminatorKey: "category", timestamps: true }
 );
