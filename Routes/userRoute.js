@@ -20,6 +20,6 @@ userRoute.post("/addtocart", addToCart);
 userRoute.get("/getcart/:userId", getAllCartItems);
 userRoute.post("/removefromcart", removeFromCart);
 userRoute.post("/addtowishlist", addToWishList);
-userRoute.get("/getwishlist", getAllWishList);
+userRoute.get("/getwishlist/:userId:", getAllWishList);
 
 export default userRoute;
