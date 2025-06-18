@@ -17,7 +17,7 @@ userRoute.post("/register", register);
 userRoute.post("/login", login);
 userRoute.get("/get-user", verifyToken, getUserDetails);
 userRoute.post("/addtocart", addToCart);
-userRoute.get("/getcart", getAllCartItems);
+userRoute.get("/getcart/:userId", getAllCartItems);
 userRoute.post("/removefromcart", removeFromCart);
 userRoute.post("/addtowishlist", addToWishList);
 userRoute.get("/getwishlist", getAllWishList);
