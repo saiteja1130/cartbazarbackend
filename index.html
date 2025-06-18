@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product Grid</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f9f9f9;
+      }
+      .section-title {
+        margin-top: 40px;
+        font-size: 24px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Display three items per row */
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .product {
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 10px 0 5px;
+      }
+      p {
+        font-size: 14px;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Products</h1>
+
+    <div id="sections-container"></div>
+
+    <script>
+      const sections = [
+        { key: "banners", title: "Banners", type: "imageOnly" },
+        { key: "latestMobiles", title: "Mobiles" },
+        { key: "womensTops", title: "Women's Tops" },
+        { key: "womenTrousers", title: "Women's Trousers" },
+        { key: "womensShoes", title: "Women's Shoes" },
+        { key: "womensHandbags", title: "Women's Handbags" },
+        { key: "womensJewelry", title: "Women's Jewelry" },
+      ];
+
+      const loadProducts = async () => {
+        try {
+          const res = await fetch("http://localhost:5000/product-list");
+          const data = await res.json();
+          const container = document.getElementById("sections-container");
+
+          sections.forEach((section) => {
+            const sectionTitle = document.createElement("h2");
+            sectionTitle.className = "section-title";
+            sectionTitle.textContent = section.title;
+            container.appendChild(sectionTitle);
+
+            const grid = document.createElement("div");
+            grid.className = "grid";
+
+            if (section.type === "imageOnly") {
+              (data[section.key] || []).forEach((filename) => {
+                const div = document.createElement("div");
+                div.className = "product";
+                div.innerHTML = `
+                  <p>${filename}</p>
+                  <img src="http://localhost:5000/product-list/${filename}" alt="${filename}" />
+                `;
+                grid.appendChild(div);
+              });
+            } else {
+              (data[section.key] || []).forEach((item) => {
+                const div = document.createElement("div");
+                div.className = "product";
+                div.innerHTML = `
+                  <h3>${item.name}</h3>
+                  ${item.brand ? `<p><strong>Brand:</strong> ${item.brand}</p>` : ""}
+                  ${item.os ? `<p><strong>OS:</strong> ${item.os}</p>` : ""}
+                  ${item.display ? `<p><strong>Display:</strong> ${item.display}</p>` : ""}
+                  ${item.camera ? `<p><strong>Camera:</strong> ${item.camera}</p>` : ""}
+                  ${item.battery ? `<p><strong>Battery:</strong> ${item.battery}</p>` : ""}
+                  ${item.material ? `<p><strong>Material:</strong> ${item.material}</p>` : ""}
+                  ${item.fit ? `<p><strong>Fit:</strong> ${item.fit}</p>` : ""}
+                  ${item.color ? `<p><strong>Color:</strong> ${item.color}</p>` : ""}
+                  ${item.size ? `<p><strong>Size:</strong> ${item.size}</p>` : ""}
+                  ${item.type ? `<p><strong>Type:</strong> ${item.type}</p>` : ""}
+                  ${item.price ? `<p><strong>Price:</strong> ${item.price}</p>` : ""}
+                  ${item.description ? `<p>${item.description}</p>` : ""}
+                  <img src="http://localhost:5000/product-list/${item.img}" alt="${item.name}" />
+                `;
+                grid.appendChild(div);
+              });
+            }
+
+            container.appendChild(grid);
+          });
+        } catch (err) {
+          console.error("Error fetching product list:", err);
+        }
+      };
+
+      loadProducts();
+    </script>
+  </body>
+</html>

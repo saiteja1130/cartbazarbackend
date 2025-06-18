@@ -1,0 +1,1070 @@
+{
+  "banners": [
+    "banner-1.jpeg",
+    "banner-2.jpeg",
+    "banner-3.jpeg",
+    "banner-4.jpeg",
+    "banner-5.jpeg",
+    "banner-6.jpeg",
+    "banner-7.jpeg",
+    "banner-8.jpeg"
+  ],
+  "shoppingOptions": [
+    "mobile_logo.jpeg",
+    "mens_logo.jpeg",
+    "womens_logo.jpeg",
+    "kids_logo.jpeg",
+    "electronics_logo.jpeg",
+    "home_logo.jpeg"
+  ],
+  "latestMobiles": [
+    {
+      "img": "mobile-1.jpeg",
+      "id": 1,
+      "name": "Apple iPhone 14 Pro",
+      "brand": "Apple",
+      "os": "iOS 16",
+      "display": "6.1 inches Super Retina XDR OLED",
+      "camera": "48MP (Main) + 12MP (Ultra-Wide) + 12MP (Telephoto)",
+      "battery": "4082mAh",
+      "price": "$1099",
+      "description": "The iPhone 14 Pro features Apple's Dynamic Island, a ProMotion 120Hz display, and the powerful A16 Bionic chip."
+    },
+    {
+      "img": "mobile-5.jpeg",
+      "id": 2,
+      "name": "Samsung Galaxy S22 Ultra",
+      "brand": "Samsung",
+      "os": "Android 11 (Upgradable to Android 13)",
+      "display": "6.8 inches Dynamic AMOLED 2X, 120Hz",
+      "camera": "108MP (Main) + 12MP (Ultra-Wide) + 10MP (Telephoto) + 10MP (Periscope)",
+      "battery": "5000mAh",
+      "price": "$899",
+      "description": "The Galaxy S22 Ultra offers a premium design with an S-Pen and a 108MP quad-camera setup."
+    },
+    {
+      "img": "mobile-3.jpeg",
+      "id": 3,
+      "name": "Google Pixel 7 Pro",
+      "brand": "Google",
+      "os": "Android 13",
+      "display": "6.7 inches LTPO AMOLED, 120Hz",
+      "camera": "50MP (Main) + 12MP (Ultra-Wide) + 48MP (Telephoto)",
+      "battery": "5124mAh",
+      "price": "$899",
+      "description": "Pixel 7 Pro is powered by Google's Tensor G2 chip, offering exceptional AI capabilities."
+    },
+    {
+      "img": "mobile-4.jpeg",
+      "id": 4,
+      "name": "OnePlus 10 Pro",
+      "brand": "OnePlus",
+      "os": "Android 12",
+      "display": "6.7 inches LTPO2 Fluid AMOLED, 120Hz",
+      "camera": "48MP (Main) + 50MP (Ultra-Wide) + 8MP (Telephoto)",
+      "battery": "5000mAh",
+      "price": "$699",
+      "description": "OnePlus 10 Pro delivers a smooth OxygenOS experience with a Hasselblad-tuned triple-camera system."
+    },
+    {
+      "img": "mobile-2.jpeg",
+      "id": 5,
+      "name": "Xiaomi Mi 12 Pro",
+      "brand": "Xiaomi",
+      "os": "Android 11 (Upgradable to Android 13)",
+      "display": "6.73 inches LTPO AMOLED, 120Hz",
+      "camera": "50MP (Main) + 50MP (Ultra-Wide) + 50MP (Telephoto)",
+      "battery": "5160mAh",
+      "price": "$599",
+      "description": "Xiaomi Mi 12 Pro offers an all-50MP camera setup and a Snapdragon 8 Gen 1 processor."
+    }
+  ],
+  "latestLaptops": [
+    {
+      "img": "laptop-1.jpeg",
+      "id": 6,
+      "name": "Apple MacBook Air M3",
+      "brand": "Apple",
+      "processor": "Apple M3 Chip",
+      "display": "13.6-inch Retina Display",
+      "ram": "8GB/16GB",
+      "storage": "256GB/512GB/1TB SSD",
+      "battery": "Up to 18 hours",
+      "price": "$1199",
+      "description": "The new MacBook Air M3 offers exceptional performance and a high-resolution Retina display."
+    },
+    {
+      "img": "laptop-2.jpeg",
+      "id": 7,
+      "name": "Dell Inspiron 14 Plus",
+      "brand": "Dell",
+      "processor": "Intel Core i7 13th Gen",
+      "display": "14-inch FHD+ Display",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "battery": "Up to 10 hours",
+      "price": "$899",
+      "description": "Dell Inspiron 14 Plus offers a sleek design with a powerful Intel 13th Gen processor."
+    },
+    {
+      "img": "laptop-3.jpeg",
+      "id": 8,
+      "name": "Asus Zenbook 14 OLED (Q425)",
+      "brand": "Asus",
+      "processor": "Intel Core Ultra 7",
+      "display": "14-inch 2.8K OLED Display",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "battery": "Up to 16 hours",
+      "price": "$1299",
+      "description": "Asus Zenbook 14 OLED delivers vibrant visuals and a lightweight design."
+    }
+  ],
+  "latestCameras": [
+    {
+      "img": "camera-1.jpeg",
+      "id": 9,
+      "name": "Canon EOS R6 Mark II",
+      "brand": "Canon",
+      "sensor": "24.2MP Full-Frame CMOS",
+      "video": "4K 60fps",
+      "autofocus": "Dual Pixel CMOS AF II",
+      "battery": "Up to 450 shots",
+      "price": "$2499",
+      "description": "Canon EOS R6 Mark II is a high-speed full-frame mirrorless camera."
+    },
+    {
+      "img": "camera-2.jpeg",
+      "id": 10,
+      "name": "Sony A7 IV",
+      "brand": "Sony",
+      "sensor": "33MP Full-Frame Exmor R",
+      "video": "4K 60fps",
+      "autofocus": "Real-time Eye AF",
+      "battery": "Up to 670 shots",
+      "price": "$2499",
+      "description": "Sony A7 IV offers an upgraded 33MP sensor with enhanced autofocus."
+    }
+  ],
+  "latestHeadphones": [
+    {
+      "img": "Headphones-1.jpeg",
+      "id": 11,
+      "name": "Apple AirPods Max",
+      "brand": "Apple",
+      "type": "Over-Ear",
+      "battery": "Up to 20 hours",
+      "noiseCancelling": "Active Noise Cancellation",
+      "price": "$549",
+      "description": "Apple AirPods Max offers spatial audio and industry-leading noise cancellation."
+    },
+    {
+      "img": "Headphones-2.jpeg",
+      "id": 12,
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "type": "Over-Ear",
+      "battery": "Up to 30 hours",
+      "noiseCancelling": "Best-in-Class ANC",
+      "price": "$399",
+      "description": "Sony WH-1000XM5 provides industry-leading noise cancellation and superior sound quality."
+    }
+  ],
+  "refrigerators": [
+    {
+      "img": "ref-1.jpeg",
+      "id": 85,
+      "name": "LG 260L Frost Free Refrigerator",
+      "brand": "LG",
+      "capacity": "260 Liters",
+      "type": "Double Door",
+      "energyRating": "4 Star",
+      "price": "$450",
+      "description": "LG's 260L frost-free refrigerator offers energy efficiency, spacious compartments, and an inverter compressor for quiet operation."
+    },
+    {
+      "img": "eref-2.jpeg",
+      "id": 86,
+      "name": "Samsung 345L Convertible Refrigerator",
+      "brand": "Samsung",
+      "capacity": "345 Liters",
+      "type": "Double Door",
+      "energyRating": "3 Star",
+      "price": "$550",
+      "description": "Samsung's 345L convertible refrigerator provides flexible storage options with Twin Cooling Plus technology to keep food fresh longer."
+    },
+    {
+      "img": "ref-3.jpeg",
+      "id": 87,
+      "name": "Whirlpool 190L Single Door Refrigerator",
+      "brand": "Whirlpool",
+      "capacity": "190 Liters",
+      "type": "Single Door",
+      "energyRating": "5 Star",
+      "price": "$350",
+      "description": "Whirlpool's 190L refrigerator comes with insulated capillary technology for better cooling and a large freezer for efficient storage."
+    }
+  ],
+  "microwaves": [
+    {
+      "img": "mic-1.jpeg",
+      "id": 88,
+      "name": "LG 28L Convection Microwave",
+      "brand": "LG",
+      "capacity": "28 Liters",
+      "type": "Convection",
+      "power": "900W",
+      "price": "$200",
+      "description": "LG's 28L convection microwave features auto-cook menus, grill functionality, and even heating for perfect meals."
+    },
+    {
+      "img": "mic-2.jpeg",
+      "id": 89,
+      "name": "Panasonic 20L Solo Microwave",
+      "brand": "Panasonic",
+      "capacity": "20 Liters",
+      "type": "Solo",
+      "power": "800W",
+      "price": "$100",
+      "description": "Panasonic's 20L solo microwave offers quick and even heating, ideal for small families and bachelors."
+    },
+    {
+      "img": "mic-3.jpeg",
+      "id": 90,
+      "name": "Samsung 32L Grill Microwave",
+      "brand": "Samsung",
+      "capacity": "32 Liters",
+      "type": "Grill",
+      "power": "1000W",
+      "price": "$250",
+      "description": "Samsung's 32L grill microwave features a ceramic interior, anti-bacterial coating, and strong grilling options."
+    }
+  ],
+  "washingMachines": [
+    {
+      "img": "was-1.jpeg",
+      "id": 91,
+      "name": "IFB 8kg Front Load Washing Machine",
+      "brand": "IFB",
+      "capacity": "8 kg",
+      "type": "Front Load",
+      "energyRating": "5 Star",
+      "price": "$600",
+      "description": "IFB's 8kg front-load washing machine features an inverter motor, high-speed spin, and multiple wash programs for efficiency."
+    },
+    {
+      "img": "was-2.jpeg",
+      "id": 92,
+      "name": "Samsung 7kg Top Load Washing Machine",
+      "brand": "Samsung",
+      "capacity": "7 kg",
+      "type": "Top Load",
+      "energyRating": "4 Star",
+      "price": "$450",
+      "description": "Samsung's 7kg top-load washing machine provides powerful cleaning with wobble technology and digital inverter motor."
+    },
+    {
+      "img": "was-3.jpeg",
+      "id": 93,
+      "name": "LG 6.5kg Semi-Automatic Washing Machine",
+      "brand": "LG",
+      "capacity": "6.5 kg",
+      "type": "Semi-Automatic",
+      "energyRating": "3 Star",
+      "price": "$300",
+      "description": "LG's 6.5kg semi-automatic washing machine features roller jet pulsator technology for effective washing."
+    }
+  ],
+  "vacuumCleaners": [
+    {
+      "img": "vac-1.jpeg",
+      "id": 94,
+      "name": "Dyson V11 Cordless Vacuum Cleaner",
+      "brand": "Dyson",
+      "power": "120 AW",
+      "type": "Cordless",
+      "batteryLife": "60 min",
+      "price": "$650",
+      "description": "Dyson's V11 cordless vacuum cleaner offers powerful suction, intelligent sensors, and long battery life for deep cleaning."
+    },
+    {
+      "img": "vac-2.jpeg",
+      "id": 95,
+      "name": "Philips PowerPro Compact Vacuum",
+      "brand": "Philips",
+      "power": "1900W",
+      "type": "Bagless",
+      "dustCapacity": "1.5 Liters",
+      "price": "$180",
+      "description": "Philips PowerPro Compact vacuum cleaner provides strong suction, easy maneuverability, and hygienic dust disposal."
+    },
+    {
+      "img": "vac-3.jpeg",
+      "id": 96,
+      "name": "Eureka Forbes Trendy Wet & Dry Vacuum",
+      "brand": "Eureka Forbes",
+      "power": "1400W",
+      "type": "Wet & Dry",
+      "dustCapacity": "8 Liters",
+      "price": "$220",
+      "description": "Eureka Forbes wet & dry vacuum cleaner is ideal for home and car cleaning with powerful suction and a large dustbin."
+    }
+  ],
+  "kidsTopWear": [
+    {
+      "id": 66,
+      "name": "Graphic T-Shirt",
+      "brand": "Nike",
+      "material": "Cotton",
+      "color": "Red",
+      "size": "2-6 years",
+      "price": "$18",
+      "description": "A fun and comfortable graphic tee featuring the iconic Nike logo, perfect for active kids. Made with soft cotton to keep your little one comfortable all day long.",
+      "img": "kidshirt-1.jpeg"
+    },
+    {
+      "id": 67,
+      "name": "Striped Polo Shirt",
+      "brand": "Ralph Lauren",
+      "material": "Cotton",
+      "color": "Navy Blue & White Stripes",
+      "size": "4-10 years",
+      "price": "$25",
+      "description": "A stylish striped polo shirt that combines comfort and sophistication. Ideal for both casual and semi-formal occasions, it’s a must-have for your child’s wardrobe.",
+      "img": "kidshirt-2.jpeg"
+    },
+    {
+      "id": 68,
+      "name": "Printed Hoodie",
+      "brand": "Adidas",
+      "material": "Cotton-Blend",
+      "color": "Gray with Black Print",
+      "size": "6-12 years",
+      "price": "$35",
+      "description": "This cozy hoodie with a bold Adidas print is perfect for cooler days. It's soft, warm, and features a front pocket for storing small treasures.",
+      "img": "kidshirt-3.jpeg"
+    }
+  ],
+  "kidsBottomWear": [
+    {
+      "id": 69,
+      "name": "Denim Jeans",
+      "brand": "Levi's",
+      "material": "Denim",
+      "color": "Blue",
+      "size": "2-6 years",
+      "price": "$30",
+      "description": "Classic blue denim jeans that are durable and comfortable. Perfect for everyday wear, these jeans feature a timeless style that pairs well with any top.",
+      "img": "kidpant-1.jpeg"
+    },
+    {
+      "id": 70,
+      "name": "Cargo Shorts",
+      "brand": "Old Navy",
+      "material": "Cotton",
+      "color": "Olive Green",
+      "size": "4-10 years",
+      "price": "$22",
+      "description": "These cargo shorts are both functional and stylish, with multiple pockets for storing little treasures. Made from soft cotton for all-day comfort.",
+      "img": "kidpant-2.jpeg"
+    },
+    {
+      "id": 71,
+      "name": "Sweatpants",
+      "brand": "Nike",
+      "material": "Polyester-Cotton Blend",
+      "color": "Black",
+      "size": "6-12 years",
+      "price": "$25",
+      "description": "Cozy sweatpants with an elastic waistband for a snug fit. Ideal for lounging or sports activities, these sweatpants are both comfortable and trendy.",
+      "img": "kidpant-3.jpeg"
+    },
+    {
+      "id": 72,
+      "name": "Chino Pants",
+      "brand": "H&M",
+      "material": "Cotton",
+      "color": "Khaki",
+      "size": "2-8 years",
+      "price": "$28",
+      "description": "These chino pants are perfect for semi-formal or casual wear. They offer a neat and stylish look, with a soft cotton fabric for all-day comfort.",
+      "img": "kidpant-4.jpeg"
+    }
+  ],
+  "kidsShoes": [
+    {
+      "id": 73,
+      "name": "Nike Kids Air Max 270",
+      "brand": "Nike",
+      "type": "Sneakers",
+      "price": "$65",
+      "description": "Stylish and comfortable sneakers for kids with Air Max cushioning for extra comfort. Features a breathable mesh upper, ideal for everyday wear.",
+      "img": "kidshoe-1.jpeg"
+    },
+    {
+      "id": 74,
+      "name": "Adidas Kids UltraBOOST 22",
+      "brand": "Adidas",
+      "type": "Running Shoes",
+      "price": "$75",
+      "description": "Lightweight running shoes for kids with responsive Boost cushioning. Designed to provide support and comfort for active kids during sports and play.",
+      "img": "kidshoe-2.jpeg"
+    },
+    {
+      "id": 75,
+      "name": "Skechers Kids Sport Shoes",
+      "brand": "Skechers",
+      "type": "Sport Shoes",
+      "price": "$50",
+      "description": "Durable sport shoes for kids featuring a flexible sole and cushioned insole for comfort during outdoor activities and school use.",
+      "img": "kidshoe-3.jpeg"
+    },
+    {
+      "id": 76,
+      "name": "Puma Kids Smash v2 Sneakers",
+      "brand": "Puma",
+      "type": "Casual Sneakers",
+      "price": "$40",
+      "description": "Classic low-top sneakers with a sleek design and cushioned footbed for comfort. Perfect for casual wear, school, or outings.",
+      "img": "kidshoe-4.jpeg"
+    }
+  ],
+  "kidsToys": [
+    {
+      "id": 77,
+      "name": "LEGO Classic Set",
+      "brand": "LEGO",
+      "ageGroup": "4+ years",
+      "price": "$25",
+      "description": "A creative LEGO set that allows kids to build anything they imagine. Includes various colors and shapes to spark creativity and improve fine motor skills.",
+      "img": "kidtoy-1.jpeg"
+    },
+    {
+      "id": 78,
+      "name": "Barbie Doll Set",
+      "brand": "Mattel",
+      "ageGroup": "3+ years",
+      "price": "$30",
+      "description": "A Barbie doll set that includes a fashionable doll and accessories. Perfect for imaginative play, letting kids create stories and adventures with Barbie.",
+      "img": "kidtoy-2.jpeg"
+    },
+    {
+      "id": 79,
+      "name": "Hot Wheels Cars",
+      "brand": "Hot Wheels",
+      "ageGroup": "3+ years",
+      "price": "$10",
+      "description": "A pack of mini race cars that kids can collect and race. Fun and fast-paced play that promotes creativity and fine motor skills.",
+      "img": "kidtoy-3.jpeg"
+    },
+    {
+      "id": 80,
+      "name": "Fisher-Price Activity Center",
+      "brand": "Fisher-Price",
+      "ageGroup": "6-12 months",
+      "price": "$40",
+      "description": "An interactive toy that helps babies develop motor skills through fun activities. Includes bright colors, sounds, and textures that stimulate learning.",
+      "img": "kidtoy-4.jpeg"
+    },
+    {
+      "id": 81,
+      "name": "Play-Doh Fun Factory",
+      "brand": "Play-Doh",
+      "ageGroup": "3+ years",
+      "price": "$15",
+      "description": "A fun Play-Doh set that lets kids shape, mold, and create their own colorful designs. Ideal for creative play and improving hand-eye coordination.",
+      "img": "kidtoy-5.jpeg"
+    },
+    {
+      "id": 82,
+      "name": "VTech Robot Toy",
+      "brand": "VTech",
+      "ageGroup": "2-5 years",
+      "price": "$20",
+      "description": "An educational robot toy that teaches kids shapes, colors, and numbers. With interactive buttons and sound effects, it makes learning fun.",
+      "img": "kidtoy-6.jpeg"
+    },
+    {
+      "id": 83,
+      "name": "Nerf Blaster",
+      "brand": "Nerf",
+      "ageGroup": "6+ years",
+      "price": "$25",
+      "description": "A foam dart blaster for safe, action-packed fun. Perfect for outdoor play and helps kids develop hand-eye coordination and aim.",
+      "img": "kidtoy-7.jpeg"
+    },
+    {
+      "id": 84,
+      "name": "Cabbage Patch Kids Doll",
+      "brand": "Cabbage Patch Kids",
+      "ageGroup": "3+ years",
+      "price": "$35",
+      "description": "A cuddly and collectible doll with unique features. Each doll comes with its own name and story, encouraging imaginative play and nurturing skills.",
+      "img": "kidtoy-8.jpeg"
+    }
+  ],
+  "mensShirts": [
+    {
+      "id": 13,
+      "name": "Classic Oxford Shirt",
+      "brand": "Ralph Lauren",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "color": "White",
+      "price": "$79",
+      "description": "A timeless classic, this Oxford shirt is made from premium cotton, offering comfort and breathability. Perfect for both casual and formal occasions.",
+      "img": "menshirt-1.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Slim Fit Denim Shirt",
+      "brand": "Levi's",
+      "material": "Denim Cotton",
+      "fit": "Slim Fit",
+      "color": "Blue",
+      "price": "$65",
+      "description": "A stylish denim shirt featuring a slim-fit design, button-down front, and a rugged look. Ideal for casual wear and layering.",
+      "img": "menshirt-2.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Checked Flannel Shirt",
+      "brand": "Timberland",
+      "material": "Flannel Cotton",
+      "fit": "Regular Fit",
+      "color": "Red & Black",
+      "price": "$55",
+      "description": "Stay warm and stylish with this flannel shirt. The soft cotton fabric ensures comfort, while the checkered pattern adds a rugged appeal.",
+      "img": "menshirt-3.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Formal Dress Shirt",
+      "brand": "Calvin Klein",
+      "material": "Cotton Blend",
+      "fit": "Slim Fit",
+      "color": "Light Blue",
+      "price": "$89",
+      "description": "A sophisticated dress shirt designed for formal occasions. The premium fabric blend provides a sleek look and a comfortable fit.",
+      "img": "menshirt-4.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Linen Summer Shirt",
+      "brand": "Tommy Hilfiger",
+      "material": "100% Linen",
+      "fit": "Regular Fit",
+      "color": "Beige",
+      "price": "$72",
+      "description": "Lightweight and breathable, this linen shirt is perfect for warm weather. It offers a relaxed yet stylish look for casual outings.",
+      "img": "menshirt-5.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Hawaiian Printed Shirt",
+      "brand": "H&M",
+      "material": "Rayon",
+      "fit": "Relaxed Fit",
+      "color": "Multicolor",
+      "price": "$45",
+      "description": "A fun and vibrant Hawaiian shirt featuring tropical prints. The relaxed fit and soft rayon fabric make it a great choice for vacations and summer parties.",
+      "img": "menshirt-6.jpeg"
+    },
+    {
+      "id": 19,
+      "name": "Mandarin Collar Shirt",
+      "brand": "Zara",
+      "material": "Cotton Blend",
+      "fit": "Slim Fit",
+      "color": "Navy Blue",
+      "price": "$60",
+      "description": "A modern and sleek mandarin collar shirt that pairs well with both jeans and dress pants. Its slim fit adds a touch of elegance.",
+      "img": "menshirt-7.jpeg"
+    }
+  ],
+  "mensPants": [
+    {
+      "id": 20,
+      "name": "Slim Fit Chinos",
+      "brand": "Dockers",
+      "material": "98% Cotton, 2% Elastane",
+      "fit": "Slim Fit",
+      "color": "Khaki",
+      "price": "$55",
+      "description": "These slim-fit chinos offer a sleek and modern look with a touch of stretch for all-day comfort. Perfect for both casual and semi-formal occasions.",
+      "img": "menpant-1.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "Classic Straight Jeans",
+      "brand": "Levi's",
+      "material": "Denim Cotton",
+      "fit": "Regular Fit",
+      "color": "Blue",
+      "price": "$69",
+      "description": "A timeless pair of jeans with a classic straight-leg design. Durable and comfortable, ideal for everyday wear.",
+      "img": "menpant-2.jpeg"
+    },
+    {
+      "id": 22,
+      "name": "Athletic Fit Joggers",
+      "brand": "Nike",
+      "material": "Cotton-Polyester Blend",
+      "fit": "Athletic Fit",
+      "color": "Black",
+      "price": "$49",
+      "description": "Designed for active lifestyles, these joggers provide a perfect blend of comfort and flexibility, making them great for workouts or casual outings.",
+      "img": "menpant-3.jpeg"
+    },
+    {
+      "id": 23,
+      "name": "Formal Dress Pants",
+      "brand": "Calvin Klein",
+      "material": "Wool Blend",
+      "fit": "Slim Fit",
+      "color": "Gray",
+      "price": "$89",
+      "description": "Elevate your formal look with these high-quality slim-fit dress pants. Crafted from a premium wool blend for a refined appearance.",
+      "img": "menpant-4.jpeg"
+    },
+    {
+      "id": 24,
+      "name": "Cargo Pants",
+      "brand": "The North Face",
+      "material": "Cotton Twill",
+      "fit": "Relaxed Fit",
+      "color": "Olive Green",
+      "price": "$75",
+      "description": "A rugged and stylish pair of cargo pants featuring multiple pockets for utility. Great for outdoor activities and casual wear.",
+      "img": "menpant-5.jpeg"
+    },
+    {
+      "id": 25,
+      "name": "Linen Drawstring Pants",
+      "brand": "Tommy Bahama",
+      "material": "100% Linen",
+      "fit": "Relaxed Fit",
+      "color": "Beige",
+      "price": "$65",
+      "description": "Lightweight and breathable linen pants with a comfortable drawstring waist. Ideal for summer vacations and beachwear.",
+      "img": "menpant-6.jpeg"
+    },
+    {
+      "id": 26,
+      "name": "Tapered Track Pants",
+      "brand": "Adidas",
+      "material": "Polyester",
+      "fit": "Tapered Fit",
+      "color": "Navy Blue",
+      "price": "$55",
+      "description": "Stay comfortable and stylish with these tapered track pants. Perfect for workouts, lounging, or streetwear fashion.",
+      "img": "menpant-7.jpeg"
+    }
+  ],
+  "mensShoes": [
+    {
+      "id": 27,
+      "name": "Nike Air Max 270",
+      "brand": "Nike",
+      "type": "Sneakers",
+      "price": "$150",
+      "description": "A comfortable and stylish pair of sneakers with a breathable mesh upper and Air Max cushioning. Perfect for everyday wear or a casual sporty look.",
+      "img": "menshoe-1.jpeg"
+    },
+    {
+      "id": 28,
+      "name": "Adidas Ultraboost 22",
+      "brand": "Adidas",
+      "type": "Running Shoes",
+      "price": "$180",
+      "description": "Lightweight and responsive running shoes designed for maximum comfort. Featuring Boost cushioning and a breathable knit upper for a smooth run.",
+      "img": "menshoe-2.jpeg"
+    },
+    {
+      "id": 29,
+      "name": "Timberland PRO 6\" Work Boots",
+      "brand": "Timberland",
+      "type": "Work Boots",
+      "price": "$130",
+      "description": "Durable and tough work boots with steel toes for protection and waterproof leather. These boots are designed to handle demanding work environments.",
+      "img": "menshoe-3.jpeg"
+    },
+    {
+      "id": 30,
+      "name": "Puma Suede Classic",
+      "brand": "Puma",
+      "type": "Casual Sneakers",
+      "price": "$65",
+      "description": "Classic suede sneakers with a retro look. Known for their style and comfort, they are perfect for casual outfits and everyday activities.",
+      "img": "menshoe-4.jpeg"
+    }
+  ],
+  "mensAccessories": [
+    {
+      "id": 31,
+      "name": "Rolex Submariner",
+      "brand": "Rolex",
+      "type": "Luxury Watch",
+      "material": "Stainless Steel",
+      "waterResistance": "300m",
+      "price": "$10,000",
+      "description": "The Rolex Submariner is an iconic luxury dive watch featuring a robust design, water resistance up to 300m, and a timeless aesthetic perfect for any occasion.",
+      "img": "mensAccessories-1.jpeg"
+    },
+    {
+      "id": 32,
+      "name": "Montblanc Sartorial Wallet",
+      "brand": "Montblanc",
+      "type": "Leather Wallet",
+      "material": "Full-Grain Leather",
+      "compartments": "6 Card Slots, 2 Bill Compartments",
+      "price": "$250",
+      "description": "The Montblanc Sartorial Wallet is a sleek and sophisticated accessory crafted from full-grain leather, offering premium style and functionality for modern gentlemen.",
+      "img": "mensAccessories-2.jpeg"
+    },
+    {
+      "id": 33,
+      "name": "Ray-Ban Aviator",
+      "brand": "Ray-Ban",
+      "type": "Sunglasses",
+      "material": "Metal Frame, Polarized Lenses",
+      "UVProtection": "100% UV Protection",
+      "price": "$180",
+      "description": "Ray-Ban Aviator sunglasses offer timeless style, superior eye protection, and lightweight durability, making them a must-have accessory for men.",
+      "img": "mensAccessories-3.jpeg"
+    },
+    {
+      "id": 34,
+      "name": "Gucci Signature Leather Belt",
+      "brand": "Gucci",
+      "type": "Leather Belt",
+      "material": "Genuine Leather with Metal Buckle",
+      "size": "Adjustable",
+      "price": "$480",
+      "description": "Gucci’s Signature Leather Belt combines elegance and durability, featuring a stylish GG logo buckle and high-quality leather for a refined look.",
+      "img": "mensAccessories-4.jpeg"
+    },
+    {
+      "id": 35,
+      "name": "David Yurman Cable Bracelet",
+      "brand": "David Yurman",
+      "type": "Luxury Bracelet",
+      "material": "Sterling Silver with Gold Accents",
+      "size": "Adjustable",
+      "price": "$695",
+      "description": "The David Yurman Cable Bracelet blends modern craftsmanship with classic design, featuring twisted sterling silver with gold accents for a bold statement.",
+      "img": "mensAccessories-5.jpeg"
+    }
+  ],
+  "womensTops": [
+    {
+      "id": 36,
+      "name": "Floral Print Blouse",
+      "brand": "H&M",
+      "material": "100% Polyester",
+      "fit": "Regular Fit",
+      "color": "White with Floral Pattern",
+      "price": "$29",
+      "description": "This lightweight floral blouse adds a pop of color to your wardrobe. Perfect for casual days or dressed up with accessories.",
+      "img": "womentop-1.jpeg"
+    },
+    {
+      "id": 37,
+      "name": "V-Neck Knit Top",
+      "brand": "Zara",
+      "material": "Cotton-Blend",
+      "fit": "Slim Fit",
+      "color": "Black",
+      "price": "$39",
+      "description": "A versatile V-neck knit top that combines style and comfort. It can be worn alone or layered with jackets and cardigans.",
+      "img": "womentop-2.jpeg"
+    },
+    {
+      "id": 38,
+      "name": "Sleeveless Peplum Top",
+      "brand": "Forever 21",
+      "material": "Cotton",
+      "fit": "Peplum Fit",
+      "color": "Pastel Pink",
+      "price": "$25",
+      "description": "This sleeveless peplum top adds a touch of elegance to your look with its flattering silhouette. Great for both casual and formal settings.",
+      "img": "womentop-3.jpeg"
+    },
+    {
+      "id": 39,
+      "name": "Striped Button-Down Shirt",
+      "brand": "Madewell",
+      "material": "Cotton",
+      "fit": "Relaxed Fit",
+      "color": "Navy Blue with White Stripes",
+      "price": "$49",
+      "description": "A classic button-down shirt with bold stripes for a chic and timeless look. Perfect for work or casual outings.",
+      "img": "womentop-4.jpeg"
+    },
+    {
+      "id": 40,
+      "name": "Graphic Tee",
+      "brand": "Uniqlo",
+      "material": "100% Cotton",
+      "fit": "Regular Fit",
+      "color": "White with Graphic Print",
+      "price": "$19",
+      "description": "A soft and casual graphic tee with a trendy design. Great for everyday wear and paired with jeans or skirts.",
+      "img": "womentop-5.jpeg"
+    },
+    {
+      "id": 41,
+      "name": "Cropped Sweater",
+      "brand": "American Eagle",
+      "material": "Acrylic-Blend",
+      "fit": "Cropped Fit",
+      "color": "Light Gray",
+      "price": "$35",
+      "description": "This cozy cropped sweater is perfect for chilly days. Pair it with high-waisted jeans or skirts for a cute, casual outfit.",
+      "img": "womentop-6.jpeg"
+    },
+    {
+      "id": 42,
+      "name": "Ruffle Sleeve Top",
+      "brand": "Express",
+      "material": "Polyester",
+      "fit": "Regular Fit",
+      "color": "Blush Pink",
+      "price": "$34",
+      "description": "A soft and stylish top with ruffle sleeves that adds a feminine touch to your outfit. Great for office wear or weekend outings.",
+      "img": "womentop-7.jpeg"
+    }
+  ],
+  "womenTrousers": [
+    {
+      "id": 44,
+      "name": "High-Waisted Skinny Jeans",
+      "brand": "Levi's",
+      "material": "Denim (Cotton, Elastane)",
+      "fit": "Skinny Fit",
+      "color": "Medium Wash Blue",
+      "price": "$69",
+      "description": "These high-waisted skinny jeans are a wardrobe staple. They offer a flattering silhouette and can be styled with both casual and formal tops.",
+      "img": "womenbot-1.jpeg"
+    },
+    {
+      "id": 45,
+      "name": "Wide-Legged Trousers",
+      "brand": "H&M",
+      "material": "Polyester, Viscose",
+      "fit": "Wide Leg",
+      "color": "Black",
+      "price": "$39",
+      "description": "Perfect for a relaxed yet chic look, these wide-legged trousers are comfortable and stylish. Ideal for work or casual outings.",
+      "img": "womenbot-2.jpeg"
+    },
+    {
+      "id": 46,
+      "name": "Tailored Blazer Pants",
+      "brand": "Zara",
+      "material": "Wool Blend",
+      "fit": "Slim Fit",
+      "color": "Charcoal Gray",
+      "price": "$59",
+      "description": "These tailored blazer pants offer a sophisticated, professional look with their slim fit. Perfect for office wear or formal events.",
+      "img": "womenbot-3.jpeg"
+    },
+    {
+      "id": 47,
+      "name": "Culottes",
+      "brand": "Uniqlo",
+      "material": "Cotton",
+      "fit": "Loose Fit",
+      "color": "Navy Blue",
+      "price": "$45",
+      "description": "These breezy culottes offer a relaxed fit and are perfect for warm-weather days. Pair them with a crop top or blouse for an easygoing outfit.",
+      "img": "womenbot-4.jpeg"
+    },
+    {
+      "id": 48,
+      "name": "Cargo Pants",
+      "brand": "ASOS",
+      "material": "Cotton-Blend",
+      "fit": "Loose Fit",
+      "color": "Olive Green",
+      "price": "$50",
+      "description": "Stylish and practical, these cargo pants offer multiple pockets for utility. The loose fit gives you comfort while maintaining a trendy look.",
+      "img": "womenbot-5.jpeg"
+    },
+    {
+      "id": 49,
+      "name": "Palazzo Pants",
+      "brand": "Forever 21",
+      "material": "Rayon",
+      "fit": "Wide Leg",
+      "color": "Black and White Stripes",
+      "price": "$32",
+      "description": "Palazzo pants with a high-waisted fit and flowing fabric. Perfect for a relaxed, bohemian style during weekends or vacations.",
+      "img": "womenbot-6.jpeg"
+    },
+    {
+      "id": 50,
+      "name": "Leather Skirt",
+      "brand": "Bershka",
+      "material": "Faux Leather",
+      "fit": "A-Line Fit",
+      "color": "Black",
+      "price": "$39",
+      "description": "A classic faux leather skirt with an A-line fit that adds a touch of edge to your outfit. Can be paired with blouses or sweaters for a stylish evening look.",
+      "img": "womenbot-7.jpeg"
+    },
+    {
+      "id": 51,
+      "name": "Denim Shorts",
+      "brand": "American Eagle",
+      "material": "Denim (Cotton)",
+      "fit": "Regular Fit",
+      "color": "Light Wash Blue",
+      "price": "$34",
+      "description": "These denim shorts are perfect for casual summer days. With their comfortable fit and timeless style, they're ideal for lounging or running errands.",
+      "img": "womenbot-1.jpeg"
+    }
+  ],
+  "womensShoes": [
+    {
+      "id": 52,
+      "name": "Nike Air Force 1",
+      "brand": "Nike",
+      "type": "Sneakers",
+      "price": "$90",
+      "description": "Classic low-top sneakers with leather upper, known for their timeless style and comfort. Ideal for casual wear and everyday activities.",
+      "img": "womenshoe-1.jpeg"
+    },
+    {
+      "id": 53,
+      "name": "Adidas Stan Smith",
+      "brand": "Adidas",
+      "type": "Casual Sneakers",
+      "price": "$85",
+      "description": "A signature silhouette featuring a clean and minimalist design. These sneakers are versatile for various outfits and provide all-day comfort.",
+      "img": "womenshoe-2.jpeg"
+    },
+    {
+      "id": 54,
+      "name": "Steve Madden Troopa Boots",
+      "brand": "Steve Madden",
+      "type": "Ankle Boots",
+      "price": "$120",
+      "description": "Stylish and sturdy ankle boots with a faux leather finish, featuring lace-up detailing and a block heel. Perfect for transitioning between seasons.",
+      "img": "womenshoe-3.jpeg"
+    },
+    {
+      "id": 55,
+      "name": "Vans Old Skool",
+      "brand": "Vans",
+      "type": "Skate Shoes",
+      "price": "$65",
+      "description": "Iconic skate shoes with a durable canvas upper, featuring the classic Vans side stripe and a cushioned footbed for comfort and support.",
+      "img": "womenshoe-4.jpeg"
+    }
+  ],
+  "womensHandbags": [
+    {
+      "img": "handbag-1.jpeg",
+      "id": 56,
+      "name": "Louis Vuitton Neverfull MM",
+      "brand": "Louis Vuitton",
+      "material": "Coated Canvas & Leather",
+      "size": "Medium",
+      "price": "$2,030",
+      "description": "The Louis Vuitton Neverfull MM is a stylish and spacious tote bag with signature LV monogram design, perfect for daily use or travel."
+    },
+    {
+      "img": "handbag-2.jpeg",
+      "id": 57,
+      "name": "Gucci Marmont Matelassé",
+      "brand": "Gucci",
+      "material": "Leather",
+      "size": "Small",
+      "price": "$2,550",
+      "description": "The Gucci Marmont Matelassé features a quilted design with the iconic GG logo, offering a sophisticated and elegant look for any outfit."
+    },
+    {
+      "img": "handbag-3.jpeg",
+      "id": 58,
+      "name": "Prada Re-Edition 2005",
+      "brand": "Prada",
+      "material": "Recycled Nylon",
+      "size": "Mini",
+      "price": "$1,450",
+      "description": "The Prada Re-Edition 2005 is a chic mini shoulder bag made from sustainable recycled nylon, blending fashion and eco-consciousness."
+    },
+    {
+      "img": "handbag-4.jpeg",
+      "id": 59,
+      "name": "Chanel Classic Flap Bag",
+      "brand": "Chanel",
+      "material": "Lambskin Leather",
+      "size": "Medium",
+      "price": "$8,800",
+      "description": "The Chanel Classic Flap Bag is a timeless luxury piece featuring quilted lambskin leather, gold hardware, and the iconic CC turn-lock closure."
+    },
+    {
+      "img": "handbag-5.jpeg",
+      "id": 60,
+      "name": "Dior Lady Dior",
+      "brand": "Dior",
+      "material": "Patent Leather",
+      "size": "Small",
+      "price": "$5,300",
+      "description": "The Lady Dior handbag exudes elegance with its quilted Cannage stitching and signature Dior charms, making it a must-have for fashion lovers."
+    }
+  ],
+  "womensJewelry": [
+    {
+      "img": "acc-1.jpeg",
+      "id": 61,
+      "name": "Tiffany Solitaire Diamond Ring",
+      "brand": "Tiffany & Co.",
+      "material": "Platinum & Diamond",
+      "type": "Ring",
+      "price": "$15,000",
+      "description": "A classic Tiffany solitaire diamond ring featuring a stunning round-cut diamond set in a platinum band, symbolizing timeless elegance."
+    },
+    {
+      "img": "acc-2.jpeg",
+      "id": 62,
+      "name": "Cartier Love Necklace",
+      "brand": "Cartier",
+      "material": "18K Yellow Gold",
+      "type": "Necklace",
+      "price": "$3,800",
+      "description": "The Cartier Love Necklace is a symbol of eternal love, crafted from 18K yellow gold with a sleek and elegant design."
+    },
+    {
+      "img": "acc-3.jpeg",
+      "id": 63,
+      "name": "Mikimoto Akoya Pearl Earrings",
+      "brand": "Mikimoto",
+      "material": "Akoya Pearls & 18K Gold",
+      "type": "Earrings",
+      "price": "$1,500",
+      "description": "Mikimoto's Akoya Pearl Earrings feature high-quality pearls set in 18K gold, offering a timeless and sophisticated look."
+    },
+    {
+      "img": "acc-4.jpeg",
+      "id": 64,
+      "name": "Pandora Silver Charm Bracelet",
+      "brand": "Pandora",
+      "material": "Sterling Silver",
+      "type": "Bracelet",
+      "price": "$95",
+      "description": "Pandora’s charm bracelet is a customizable and elegant accessory, made from sterling silver with a variety of charm options."
+    },
+    {
+      "img": "acc-1.jpeg",
+      "id": 65,
+      "name": "Swarovski Crystal Anklet",
+      "brand": "Swarovski",
+      "material": "Silver & Crystals",
+      "type": "Anklet",
+      "price": "$120",
+      "description": "Swarovski’s Crystal Anklet is a delicate and sparkling piece, perfect for adding a touch of elegance to any outfit."
+    }
+  ]
+}
